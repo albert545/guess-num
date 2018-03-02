@@ -6,8 +6,12 @@ Created on Fri Mar  2 16:15:25 2018
 """
 
 import random
+start = input('起始值:')
+end = input('結束值:')
+start = int(start)
+end = int(end)
 
-r = random.randint(1,100)
+r = random.randint(start,end)
 t = 0
 
 while True:
